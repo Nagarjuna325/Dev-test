@@ -1,0 +1,30 @@
+
+  .header {
+    background-color: #e9e9e9; /* Placeholder color */
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start; /* Align to the start of the header */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); /* Add some shadow to the header */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* Background color for the search bar */
+    border-radius: 20px; /* Rounded corners for the search bar */
+    padding: 0.5rem;
+  }
+  
+  .search-icon {
+    width: 24px; /* Icon size */
+    height: 24px; /* Icon size */
+    fill: #333; /* Icon color */
+    margin-right: 0.5rem;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  

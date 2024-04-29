@@ -1,0 +1,45 @@
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #ecf0f1; /* Background color for the entire dashboard */
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 250px; /* Set the width of the sidebar */
+    background-color: #2c3e50; /* Background color for the sidebar */
+  }
+  
+  /* Content area styling, which contains the header, group details, and group members */
+  .content-area {
+    flex-grow: 1; /* Allows this area to fill up the remaining horizontal space */
+    display: flex;
+    flex-direction: column; /* Stack header and content-wrapper vertically */
+  }
+  
+  /* Header styling */
+  .header {
+    padding: 20px; /* Provide some spacing */
+    background-color: #ffffff; /* Background color for the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to the header */
+  }
+  
+  /* Content wrapper styling, which contains group details and group members */
+  .content-wrapper {
+    display: flex;
+    padding: 20px;
+    gap: 20px; /* Space between the group details and group members */
+    flex-grow: 1; /* Allows this wrapper to fill up the remaining vertical space */
+  }
+  
+  /* GroupDetails and GroupMembers components are imported with their own styles */
+  
+
+
+  /* Import GroupDetails and GroupMembers CSS files */
+  @import '../groups/GroupDetails.css';
+  @import '../groups/GroupMembers.css';
+  @import '../sidebar/Sidebar.css';
+  @import '../common/Header.css';
+  

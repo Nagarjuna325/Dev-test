@@ -1,0 +1,27 @@
+
+
+.group-members {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Or whatever width you prefer */
+  margin-left: auto;
+}
+
+.members-list {
+  list-style: none;
+  padding: 0;
+}
+
+.member-item {
+  margin-bottom: 10px;
+}
+
+.member-name {
+  font-weight: bold;
+}
+
+.member-role {
+  color: #666;
+}

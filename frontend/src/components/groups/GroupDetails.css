@@ -1,0 +1,33 @@
+
+
+.group-details-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+.group-details-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.placeholder-card {
+  background: #f4f4f4; /* Different background for the placeholder cards */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 100px; /* Fixed height, adjust as needed */
+}
+
+.group-name {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.group-description {
+  color: #666;
+  font-size: 16px;
+}

@@ -1,0 +1,100 @@
+
+
+   .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .profile-role {
+    margin: 0;
+    color: grey;
+  }
+  
+  .search-section {
+    margin-bottom: 30px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-link {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid transparent;
+  }
+  
+  .nav-link.active {
+    border-left-color: red;
+  }
+  
+  .nav-link .icon {
+    margin-right: 10px;
+    /* Icons should be added as background-image with the proper class or replaced with img tags */
+  }
+  
+  .home-icon { /* Icon specific styles */ 
+    background-image: url('Home_icon.png');
+    background-size: cover;
+    display: inline-block;
+    width: 40px; /* Your icon size */
+    height: 40px; /* Your icon size */
+  }
+  .tasks-icon { 
+    background-image: url('tasks-app.svg');
+    background-size: cover;
+    display: inline-block;
+    width: 40px; /* Your icon size */
+    height: 40px;
+  }
+  .requests-icon { 
+    background-image: url('request-new.svg');
+    background-size: cover;
+    display: inline-block;
+    width: 40px; /* Your icon size */
+    height: 40px;
+   }
+  .groups-icon { 
+    background-image: url('Group.jpg');
+    background-size: cover;
+    display: inline-block;
+    width: 50px; /* Your icon size */
+    height: 50px;
+   }
+  
