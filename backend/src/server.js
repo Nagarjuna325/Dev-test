@@ -11,7 +11,7 @@ async function startServer() {
     typeDefs,
     resolvers,
     context: ({ req }) => {
-      // Extract the bearer token from headers
+      
       const token = req.headers.authorization || '';
       return { authToken: token };
     }

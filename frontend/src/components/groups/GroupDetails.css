@@ -14,11 +14,11 @@
 }
 
 .placeholder-card {
-  background: #f4f4f4; /* Different background for the placeholder cards */
+  background: #f4f4f4; 
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  height: 100px; /* Fixed height, adjust as needed */
+  height: 100px; 
 }
 
 .group-name {

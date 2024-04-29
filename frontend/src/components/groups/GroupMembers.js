@@ -7,7 +7,7 @@ function GroupMembers() {
   const members = [
     { name: 'Leslie Alexander', role: 'Co-Founder / CEO' },
     { name: 'Michael Foster', role: 'Co-Founder / CTO' },
-    // ...other members
+    
   ];
 
   return (
@@ -27,4 +27,4 @@ function GroupMembers() {
 export default GroupMembers;
 
 
-// export default GroupMembers;
+

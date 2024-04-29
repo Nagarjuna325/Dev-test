@@ -27,7 +27,7 @@ function Sidebar() {
         <a href="#groups" className="nav-link">
           <span className="icon groups-icon"></span>Groups
         </a>
-        {/* Add more navigation links as needed */}
+        
       </nav>
     </div>
   );

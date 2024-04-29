@@ -5,7 +5,7 @@ import Sidebar from '../sidebar/Sidebar';
 import Header from '../common/Header';
 import GroupDetails from '../groups/GroupDetails';
 import GroupMembers from '../groups/GroupMembers';
-import './Dashboard.css'; // Main dashboard layout styles
+import './Dashboard.css'; 
 
 const Dashboard = () => {
   return (
